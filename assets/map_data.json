@@ -1,0 +1,452 @@
+{
+    "vertices": [
+        {
+            "id": "v1",
+            "objectName": null,
+            "cx": 80.80000305175781,
+            "cy": 147.59999084472656 
+        },
+        {
+            "id": "v2",
+            "objectName": "Entry",
+            "cx": 80.80000305175781,
+            "cy": 86.5999984741211
+        },
+        {
+            "id": "v3",
+            "objectName": "Restroom 1",
+            "cx": 166.8000030517578,
+            "cy": 147.59999084472656
+        },
+        {
+            "id": "v4",
+            "objectName": "Cafe1",
+            "cx": 289.79998779296875,
+            "cy": 146.59999084472656
+        },
+        {
+            "id": "v5",
+            "objectName": "Ticket Counter 1",
+            "cx": 450.79998779296875,
+            "cy": 145.59999084472656
+        },
+        {
+            "id": "v6",
+            "objectName": "Waiting Room 1",
+            "cx": 588.7999877929688,
+            "cy": 146.59999084472656
+        },
+        {
+            "id": "v7",
+            "objectName": "Infodesk",
+            "cx": 741.7999877929688,
+            "cy": 146.59999084472656
+        },
+        {
+            "id": "v8",
+            "objectName": "Exit",
+            "cx": 928.7999877929688,
+            "cy": 89
+        },
+        {
+            "id": "v9",
+            "objectName": null,
+            "cx": 928.7999877929688,
+            "cy": 146.59999084472656
+        },
+        {
+            "id": "v10",
+            "objectName": null,
+            "cx": 950.7999877929688,
+            "cy": 244
+        },
+        {
+            "id": "v11",
+            "objectName": null,
+            "cx": 948.7999877929688,
+            "cy": 291
+        },
+        {
+            "id": "v12",
+            "objectName": null,
+            "cx": 80.80000305175781,
+            "cy": 193
+        },
+        {
+            "id": "v13",
+            "objectName": null,
+            "cx": 53.80000305175781,
+            "cy": 192
+        },
+        {
+            "id": "v14",
+            "objectName": null,
+            "cx": 47.80000305175781,
+            "cy": 245
+        },
+        {
+            "id": "v15",
+            "objectName": null,
+            "cx": 48.80000305175781,
+            "cy": 289
+        },
+        {
+            "id": "v16",
+            "objectName": null,
+            "cx": 52.80000305175781,
+            "cy": 310
+        },
+        {
+            "id": "v17",
+            "objectName": null,
+            "cx": 84.80000305175781,
+            "cy": 310
+        },
+        {
+            "id": "v18",
+            "objectName": null,
+            "cx": 84.80000305175781,
+            "cy": 351
+        },
+        {
+            "id": "v19",
+            "objectName": "Restroom 2",
+            "cx": 164.8000030517578,
+            "cy": 349
+        },
+        {
+            "id": "v20",
+            "objectName": "Cafe 2",
+            "cx": 336.79998779296875,
+            "cy": 349
+        },
+        {
+            "id": "v21",
+            "objectName": "Ticket Counter 2",
+            "cx": 543.7999877929688,
+            "cy": 349
+        },
+        {
+            "id": "v22",
+            "objectName": "Food Court 2",
+            "cx": 692.7999877929688,
+            "cy": 349
+        },
+        {
+            "id": "v23",
+            "objectName": null,
+            "cx": 843.7999877929688,
+            "cy": 349
+        },
+        {
+            "id": "v24",
+            "objectName": null,
+            "cx": 940.7999877929688,
+            "cy": 354
+        },
+        {
+            "id": "v25",
+            "objectName": null,
+            "cx": 928.7999877929688,
+            "cy": 186
+        },
+        {
+            "id": "v26",
+            "objectName": null,
+            "cx": 948.7999877929688,
+            "cy": 197
+        },
+        {
+            "id": "p1c1",
+            "objectName": "Platform 1 Coach Area 1",
+            "cx": 150,
+            "cy": 190
+        },
+        {
+            "id": "p1c2",
+            "objectName": "Platform 1 Coach Area 2",
+            "cx": 300,
+            "cy": 190
+        },
+        {
+            "id": "p1c3",
+            "objectName": "Platform 1 Coach Area 3",
+            "cx": 450,
+            "cy": 190
+        },
+        {
+            "id": "p1c4",
+            "objectName": "Platform 1 Coach Area 4",
+            "cx": 600,
+            "cy": 190
+        },
+        {
+            "id": "p1c5",
+            "objectName": "Platform 1 Coach Area 5",
+            "cx": 750,
+            "cy": 190
+        },
+        {
+            "id": "p2c1",
+            "objectName": "Platform 2 Coach Area 1",
+            "cx": 150,
+            "cy": 310
+        },
+        {
+            "id": "p2c2",
+            "objectName": "Platform 2 Coach Area 2",
+            "cx": 300,
+            "cy": 310
+        },
+        {
+            "id": "p2c3",
+            "objectName": "Platform 2 Coach Area 3",
+            "cx": 450,
+            "cy": 310
+        },
+        {
+            "id": "p2c4",
+            "objectName": "Platform 2 Coach Area 4",
+            "cx": 600,
+            "cy": 310
+        },
+        {
+            "id": "p2c5",
+            "objectName": "Platform 2 Coach Area 5",
+            "cx": 760,
+            "cy": 310
+        }
+    ],
+    "edges": [
+        {
+            "id": "v2_to_v1",
+            "from": "v2",
+            "to": "v1"
+        },
+        {
+            "id": "v1_to_v3",
+            "from": "v1",
+            "to": "v3"
+        },
+        {
+            "id": "v3_to_v4",
+            "from": "v3",
+            "to": "v4"
+        },
+        {
+            "id": "v4_to_v5",
+            "from": "v4",
+            "to": "v5"
+        },
+        {
+            "id": "v5_to_v6",
+            "from": "v5",
+            "to": "v6"
+        },
+        {
+            "id": "v6_to_v7",
+            "from": "v6",
+            "to": "v7"
+        },
+        {
+            "id": "v7_to_v9",
+            "from": "v7",
+            "to": "v9"
+        },
+        {
+            "id": "v9_to_v25",
+            "from": "v9",
+            "to": "v25"
+        },
+        {
+            "id": "v25_to_v26",
+            "from": "v25",
+            "to": "v26"
+        },
+        {
+            "id": "v26_to_v10",
+            "from": "v26",
+            "to": "v10"
+        },
+        {
+            "id": "v10_to_v11",
+            "from": "v10",
+            "to": "v11"
+        },
+        {
+            "id": "v11_to_v24",
+            "from": "v11",
+            "to": "v24"
+        },
+        {
+            "id": "v24_to_v23",
+            "from": "v24",
+            "to": "v23"
+        },
+        {
+            "id": "v23_to_v22",
+            "from": "v23",
+            "to": "v22"
+        },
+        {
+            "id": "v22_to_v21",
+            "from": "v22",
+            "to": "v21"
+        },
+        {
+            "id": "v21_to_v20",
+            "from": "v21",
+            "to": "v20"
+        },
+        {
+            "id": "v20_to_v19",
+            "from": "v20",
+            "to": "v19"
+        },
+        {
+            "id": "v19_to_v18",
+            "from": "v19",
+            "to": "v18"
+        },
+        {
+            "id": "v18_to_v17",
+            "from": "v18",
+            "to": "v17"
+        },
+        {
+            "id": "v17_to_v16",
+            "from": "v17",
+            "to": "v16"
+        },
+        {
+            "id": "v16_to_v15",
+            "from": "v16",
+            "to": "v15"
+        },
+        {
+            "id": "v15_to_v14",
+            "from": "v15",
+            "to": "v14"
+        },
+        {
+            "id": "v14_to_v13",
+            "from": "v14",
+            "to": "v13"
+        },
+        {
+            "id": "v13_to_v12",
+            "from": "v13",
+            "to": "v12"
+        },
+        {
+            "id": "v12_to_v1",
+            "from": "v12",
+            "to": "v1"
+        },
+        {
+            "id": "v8_to_v9",
+            "from": "v8",
+            "to": "v9"
+        },
+        {
+            "id": "v3_to_p1c1",
+            "from": "v3",
+            "to": "p1c1"
+        },
+        {
+            "id": "v12_to_p1c1",
+            "from": "v12",
+            "to": "p1c1"
+        },
+        {
+            "id": "v4_to_p1c2",
+            "from": "v4",
+            "to": "p1c2"
+        },
+        {
+            "id": "v5_to_p1c3",
+            "from": "v5",
+            "to": "p1c3"
+        },
+        {
+            "id": "v6_to_p1c4",
+            "from": "v6",
+            "to": "p1c4"
+        },
+        {
+            "id": "v7_to_p1c5",
+            "from": "v7",
+            "to": "p1c5"
+        },
+        {
+            "id": "v17_to_p2c1",
+            "from": "v17",
+            "to": "p2c1"
+        },
+        {
+            "id": "v20_to_p2c2",
+            "from": "v20",
+            "to": "p2c2"
+        },
+        {
+            "id": "v21_to_p2c3",
+            "from": "v21",
+            "to": "p2c3"
+        },
+        {
+            "id": "v25_to_p1c5",
+            "from": "v25",
+            "to": "p1c5"
+        },
+        {
+            "id": "v22_to_p2c4",
+            "from": "v22",
+            "to": "p2c4"
+        },
+        {
+            "id": "v23_to_p2c5",
+            "from": "v23",
+            "to": "p2c5"
+        },
+        {
+            "id": "p1c1_to_p1c2",
+            "from": "p1c1",
+            "to": "p1c2"
+        },
+        {
+            "id": "p1c2_to_p1c3",
+            "from": "p1c2",
+            "to": "p1c3"
+        },
+        {
+            "id": "p1c3_to_p1c4",
+            "from": "p1c3",
+            "to": "p1c4"
+        },
+        {
+            "id": "p1c4_to_p1c5",
+            "from": "p1c4",
+            "to": "p1c5"
+        },
+        {
+            "id": "p2c1_to_p2c2",
+            "from": "p2c1",
+            "to": "p2c2"
+        },
+        {
+            "id": "p2c2_to_p2c3",
+            "from": "p2c2",
+            "to": "p2c3"
+        },
+        {
+            "id": "p2c3_to_p2c4",
+            "from": "p2c3",
+            "to": "p2c4"
+        },
+        {
+            "id": "p2c4_to_p2c5",
+            "from": "p2c4",
+            "to": "p2c5"
+        }
+    ]
+}

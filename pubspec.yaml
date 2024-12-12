@@ -1,0 +1,70 @@
+name: railway_navigation_app
+description: "A new Flutter project."
+
+# The following line prevents the package from being accidentally published to pub.dev.
+publish_to: 'none'
+
+# Version and build number
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.1
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_tts: ^3.6.3 # Text-to-Speech functionality
+  speech_to_text: 7.0.0 # Voice Input functionality
+  flutter_cube: 0.1.1
+  shared_preferences: ^2.1.1
+  http: ^1.1.0
+  url_launcher: ^6.1.10
+  google_generative_ai: ^0.4.6
+  flutter_dotenv: ^5.0.2
+  carousel_slider: ^4.2.1
+  flutter_carousel_widget: ^2.2.0
+  intl: ^0.18.0
+  google_sign_in: ^5.1.1
+  vector_math: ^2.1.4
+  webview_flutter: ^4.4.2
+  webview_flutter_android: ^3.13.1
+  webview_flutter_wkwebview: ^3.10.0
+  flutter_compass: ^0.8.0
+  flutter_svg: ^2.0.5
+  location: ^5.0.3
+  cupertino_icons: ^1.0.8
+  mobile_scanner: ^3.5.5
+  permission_handler: ^11.0.1
+  
+  
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+
+flutter:
+  # Ensures Material Icons font is included
+  uses-material-design: true
+
+  # Adding assets to your project
+  assets:
+    - assets/logo.png
+    - assets/models/model.obj
+    - assets/models/model.mtl
+    - assets/models/texture.png
+    - assets/.env
+    - assets/person_with_phone.png
+    - assets/google-logo.png
+    - assets/station_map.svg
+    - assets/map_data.json
+    - assets/vertices/platform1/
+    - assets/vertices/platform2/
+    - assets/vertices/flyovers/
+    - assets/vertices/default1.jpg
+  fonts:
+    - family: Roboto
+      fonts:
+        - asset: assets/fonts/Roboto/Roboto-Regular.ttf
+          weight: 700
